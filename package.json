@@ -2,7 +2,7 @@
   "name": "diyweb.dev",
   "version": "1.0.0",
   "main": "index.html",
-  "repository": "git@github.com:vlence/diywebdev-website.git",
+  "repository": "git@github.com:vlence/diyweb.dev.git",
   "author": "Victor Basumatary",
   "license": "MIT",
   "devDependencies": {
@@ -12,6 +12,7 @@
     "watch:css": "tailwindcss -i assets/main.css -o assets/styles.css --watch",
     "prebuild": "tailwindcss -i assets/main.css -o assets/styles.css --minify",
     "build": "hugo --minify",
+    "prestart": "npm build",
     "start": "hugo server -p 8080 -D"
   }
 }
