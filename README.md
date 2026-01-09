@@ -4,22 +4,21 @@ The source for [diyweb.dev](https://diyweb.dev).
 
 ## Running & building locally
 
-Use any web server you like. If you use python you can do this.
+This website is built with Hugo. [Install Hugo](https://gohugo.io/installation/) if you haven't
+already.
+
+Additionally some dependencies like Tailwind are needed from NPM.
+Install them.
 
 ```console
-$ python -m http.server
+npm install
 ```
 
-Build the css.
+Now we can start the server. This is meant to be used locally
+for development only. The server is listening at port 8080.
 
 ```console
-$ npm run build:css # do this before deploying
-```
-
-Or watch and build.
-
-```console
-$ npm run watch:css # useful when working on pages
+npm start
 ```
 
 ## Deployment
