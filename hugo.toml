@@ -1,7 +1,0 @@
-languageCode = 'en-us'
-baseURL = "https://www.diyweb.dev/"
-title = 'DIY Web Dev'
-
-[caches]
-        [caches.images]
-                dir = ":cacheDir/images"
