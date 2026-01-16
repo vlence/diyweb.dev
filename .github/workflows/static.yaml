@@ -88,6 +88,8 @@ jobs:
         key: hugo-${{ github.run_id }}
         restore-keys:
           hugo-
+    - name: Build css
+      run: npm run css
     - name: Build the site
       run: |
         hugo \
