@@ -1,2 +1,6 @@
 languageCode = 'en-us'
 title = 'DIY Web Dev'
+
+[caches]
+        [caches.images]
+                dir = ":cacheDir/images"
