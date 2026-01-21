@@ -21,6 +21,16 @@ for development only. The server is listening at port 8080.
 npm start
 ```
 
+## Development
+
+### CSS
+
+This website uses [Tailwind](https://tailwindcss.com). I'm
+using Hugo's builtin [TailwindCSS function](https://gohugo.io/functions/css/tailwindcss/) to automatically
+generate the CSS. The main entry point for the CSS is
+`assets/css/main.css`. The `<link>` is generated using
+`layouts/_partials/css.html` (also see `layouts/baseof.html`).
+
 ## Deployment
 
 Website is deployed to vercel.

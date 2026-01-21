@@ -1,5 +1,6 @@
-assets/styles.css
 public/*
+assets/notwatching/*
+hugo_stats.json
 
 # Mac
 .DS_Store

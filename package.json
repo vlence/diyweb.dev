@@ -6,14 +6,10 @@
   "author": "Victor Basumatary",
   "license": "MIT",
   "devDependencies": {
-    "tailwindcss": "^3.3.3"
+    "@tailwindcss/cli": "^4.1.18"
   },
   "scripts": {
-    "watch:css": "tailwindcss -i assets/main.css -o assets/styles.css --watch",
-    "css": "tailwindcss -i assets/main.css -o assets/styles.css --minify",
-    "prebuild": "npm run css",
     "build": "hugo build --minify",
-    "prestart": "npm run css",
     "start": "hugo server -p 8080 -D"
   }
 }
