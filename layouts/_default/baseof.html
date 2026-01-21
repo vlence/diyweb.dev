@@ -7,9 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
 	{{ $style := resources.Get "styles.css" }}
-    {{ $logo := resources.Get "logo.ico" }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}">
-    <link rel="icon" href="{{ $logo.Permalink }}">
+    <link rel="icon" href="{{ relURL "logo.ico" }}">
 </head>
 
 <body>
