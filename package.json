@@ -9,7 +9,7 @@
     "@tailwindcss/cli": "^4.1.18"
   },
   "scripts": {
-    "build": "hugo build --minify",
+    "build": "hugo build -e production --gc --minify",
     "start": "hugo server -p 8080 -D"
   }
 }
