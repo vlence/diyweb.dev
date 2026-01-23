@@ -1,6 +1,6 @@
 # diyweb.dev
 
-*This repository has been archived in favour of [vlence.github.io](https://www.github.com/vlence.github.io)*
+*This repository has been archived in favour of [vlence.github.io](https://www.github.com/vlence/vlence.github.io)*
 
 The source for [diyweb.dev](https://diyweb.dev).
 
